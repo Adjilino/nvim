@@ -211,7 +211,6 @@ require('lazy').setup({
   {
      'prettier/vim-prettier'
   }
-  
 }, {})
 
 -- [[ Setting options ]]
@@ -528,3 +527,5 @@ end
 map('n', 'fd', ':PrettierAsync<CR>')
 
 vim.g['prettier#quickfix_enabled'] = '1'
+vim.g['prettier#prose_wrap'] = 'always'
+
